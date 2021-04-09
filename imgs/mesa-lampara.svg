@@ -3,7 +3,7 @@
 
 #lampara{
 
-animation: girarLampara 5s ease-in-out 100 alternate ; 
+animation: girarLampara 5s ease-in-out 300 alternate ; 
 transform-box: fill-box;
 }
 

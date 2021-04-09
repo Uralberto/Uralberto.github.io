@@ -25,13 +25,11 @@
     --color-naranja: #f7cd52;
 }
 
-
 .presentacion-item {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* padding: 0  0; */
 }
 
 .presentacion-item__detalle {
@@ -40,26 +38,16 @@
 }
 
 .presentacion-item__detalle.activo{
-    display: block;
+    display: block
 
 }
 
-
 .presentacion-item__titulo {
-    grid-area: presentacion-sitio__titulo;
     padding-top: 8%;
     padding-bottom: 8%;
     font-size: 2.4rem;
     font-weight: 400;
 }
-
-.presentacion-item__descripcion {
-    display: none;
-    padding-bottom: 8%;
-    height: auto;
-    word-wrap: break-word
-}
-
 
 .presentacion-item__cuaderno{
     width: 100%;
@@ -72,7 +60,7 @@
 }
 
 .presentacion-item__img-cuaderno{
-    display: inline-block;
+    display: block;
     width: 140px;
     position: absolute;
     top: 80px;
@@ -86,14 +74,24 @@
 
 }
 .presentacion-item__pie-de-cuaderno{
+    width: 100%;
     display: block;
     padding-left: 10px;
+    padding-right: 10px;
     font-size: 1.4rem;
     padding-bottom: 10px;
 }
 
+
+.presentacion-item__descripcion {
+    display: none;
+    padding-bottom: 8%;
+    min-height: auto;
+}
+
+
 .presentacion-item__descripcion.activo{
-    display: grid;
+    display: block;
 
 }
 
@@ -101,6 +99,8 @@
 #ancla-mostrar-te-cuento {
     text-decoration: none;
 }
+
+
 
 
 /* Estilos particulares de "Yo", es decir, el CV */
