@@ -72,14 +72,14 @@ a {
     width: 100%;
     display: grid;
     align-items: center;
-    grid-template: 50px / 50px 1fr 40px;
+    grid-template: 40px / 40px 1fr 40px;
 }
 
 
 @media screen and (min-width: 600px){
     .contenedor-header__logo-nombre-burger {
     width: 100%;
-    grid-template: 60px / 60px 1fr 50px;
+    grid-template: 50px / 50px 1fr 50px;
     }
 }
 
@@ -87,14 +87,14 @@ a {
 @media screen and (min-width: 700px){
     .contenedor-header__logo-nombre-burger {
     width: 100%;
-    grid-template: 70px / 70px 1fr 60px;
+    grid-template: 60px / 60px 1fr 60px;
     }
 }
 
 @media screen and (min-width: 800px){
     .contenedor-header__logo-nombre-burger {
     width: 100%;
-    grid-template: 80px / 80px 1fr 70px;
+    grid-template: 70px / 70px 1fr 70px;
     }
 }
 
