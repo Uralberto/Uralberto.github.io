@@ -91,10 +91,10 @@ a {
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 800px){
     .contenedor-header__logo-nombre-burger {
     width: 100%;
-    grid-template: 90px / 90px 1fr 80px;
+    grid-template: 80px / 80px 1fr 70px;
     }
 }
 
@@ -668,7 +668,16 @@ height: 50px;
 }
     
 }
-    
+
+
+
+@media screen and (min-width: 800px){
+    .sub-item-btn img{
+        width: 200%;
+        margin-left: 25px
+    }
+    }
+
 
 
 code {
