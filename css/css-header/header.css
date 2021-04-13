@@ -319,7 +319,7 @@ a {
     margin-bottom: 12px;
     margin-left: 8%;
     box-shadow: 1px 1px 1px #c7c4c7, -1px -1px 1px #fcf9fc;
-    border-radius: 15px;
+    border-radius: 25px;
     list-style: none;
     transform: translateY(-100px) ;
     transform-origin: center;
@@ -369,7 +369,7 @@ to{
     align-items: center;
     width: 5%;
     margin-left: 5%;
-    transform: translateX(-150px) rotateZ(0deg);
+    transform: translateX(-30px) rotateZ(0deg);
     animation: moverVineta .5s cubic-bezier(1,-0.36, 0.06, 1.32) forwards;
 }
 
@@ -617,7 +617,7 @@ height: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
     box-shadow: 1px 1px 1px #c7c4c7, -1px -1px 1px #fcf9fc;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 
@@ -687,7 +687,7 @@ height: 50px;
 @media screen and (min-width: 768px){
     .sub-item-btn img{
         width: 200%;
-        margin-left: 20px
+        margin-left: 40px
     }
 
     }
