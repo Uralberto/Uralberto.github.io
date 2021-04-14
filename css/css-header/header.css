@@ -684,8 +684,24 @@ height: 50px;
 
 .sub-item-btn img{
     width: 130%;
-    margin-left: 5px
+    margin-left: 10px
 }
+
+@media screen and (min-width: 375px){
+    
+    .sub-item-btn img{
+        margin-left: 20px
+    }
+        
+    }
+
+@media screen and (min-width: 425px){
+    
+        .sub-item-btn img{
+            margin-left: 30px
+        }
+            
+        }
 
 
 
