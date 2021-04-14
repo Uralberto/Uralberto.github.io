@@ -87,8 +87,9 @@ a {
 @media screen and (min-width: 700px){
     .contenedor-header__logo-nombre-burger {
     width: 100%;
-    grid-template: 70px / 70px 1fr 60px;
+    grid-template: 60px / 60px 1fr 60px;
     }
+
 }
 
 @media screen and (min-width: 800px){
@@ -232,7 +233,7 @@ a {
 
 .contenedor-header__nombre-eslogan {
     width: 100%;
-    padding-left: 8%;
+    padding-left: 30px;
     padding-right: 8%;
     padding-bottom: 6px;
     display: grid;
@@ -243,7 +244,7 @@ a {
 
 
 .contenedor-header__nombre {
-    width: 100%;
+    width: 90%;
     text-align: center;
     font-size: 81px;
     font-weight: 400;
@@ -251,23 +252,38 @@ a {
 
 
 .contenedor-header__eslogan{
-    width: 100%;
+    width: 90%;
     align-self: flex-start;
 }
 
 @media screen and (min-width: 425px){
     .contenedor-header__nombre-eslogan {
-    padding-left: 13%;
+    padding-left: 60px;
     }
    
     .contenedor-header__nombre {
-        width: 90%;
+        width: 80%;
     }
     .contenedor-header__eslogan{
-        width: 90%;
+        width: 80%;
     }
 
 }
+
+@media screen and (min-width: 700px){
+    .contenedor-header__nombre-eslogan {
+    padding-left: 145px;
+    }
+   
+    .contenedor-header__nombre {
+        width: 70%;
+    }
+    .contenedor-header__eslogan{
+        width: 70%;
+    }
+
+}
+
 
 
 /* Estilos header  / estilos menu burger ----------------------------------------  */
@@ -683,13 +699,11 @@ height: 50px;
 }
 
 
-
 @media screen and (min-width: 768px){
     .sub-item-btn img{
-        width: 200%;
-        margin-left: 40px
+        width: 180%;
+        margin-left: 55px
     }
-
     }
 
 
